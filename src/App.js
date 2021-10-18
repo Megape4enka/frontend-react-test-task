@@ -14,7 +14,7 @@ function App() {
 
     async function fetchPosts(page, search = '', select) {
         const response = await axios({
-            url: 'http://localhost:8082/get-dogs',
+            url: 'https://backend-test-task.herokuapp.com/select-dogs',
             method: 'GET',
             headers: {page: page, search_data: search, select}
         })
