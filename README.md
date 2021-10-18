@@ -1,3 +1,3 @@
-npm i
+yarn
 
 start frontend comand - yarn start
