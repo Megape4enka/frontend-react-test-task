@@ -7,7 +7,7 @@ const Select = ({select, setSelect}) => {
 
     async function fetchSelect() {
         const response = await axios({
-            url: 'http://localhost:8082/select-dogs',
+            url: 'https://backend-test-task.herokuapp.com/select-dogs',
             method: 'GET'
         })
         setBreed(response.data.dogs)
